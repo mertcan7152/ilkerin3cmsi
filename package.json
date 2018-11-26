@@ -1,18 +1,14 @@
 {
-  "name": "creative",
+  "name": "b",
   "version": "0.0.1",
   "description": "",
   "main": "bot.js",
   "scripts": {
-    "test": "bot.js"
+    "test": "node bot.js"
   },
-  "author": "Bugi",
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "bufferutil": "^4.0.0",
-    "chalk": "^2.4.1",
-    "discord.js": "^11.4.2",
-    "ffmpeg": "0.0.4",
-    "moment": "^2.22.2"
+    "discord.js": "^11.3.2"
   }
 }
