@@ -4,8 +4,7 @@ const client = new Discord.Client();
 client.on('ready', () => {
   console.log(`Bot Durumu: ${client.user.tag} Aktif!`);
   
-  client.user.setStatus('online').catch(console.error);
-
+  client.user.setStatus('dnd')
 });
 
 client.on('message', message => {
