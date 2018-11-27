@@ -4,7 +4,7 @@ const client = new Discord.Client();
 client.on('ready', () => {
   console.log(`Bot Durumu: ${client.user.tag} Aktif!`);
   
-  client.user.setStatus('dnd')
+  client.user.setStatus('Saçlarıyla')
 });
 
 client.on('message', message => {
