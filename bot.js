@@ -10,7 +10,7 @@ client.on('ready', () => {
 client.on('message', message => {
   if (message.channel.name == undefined) {
     var kanal = client.channels.get("516692159664226305");
-    kanal.send(` **Yazan :** \n ${message.author} \n **Yazdığı Mesaj :** \n ${message.content} \n **Bu Arkadaş sunucuda reklam yapıyor.** <@332236158199398400> <@435927696325738506> <@266664611606953985> <@483996294822756372>`);
+    kanal.send(` **Yazan :** \n ${message.author} \n **Yazdığı Mesaj :** \n ${message.content} \n **Bu Arkadaş sunucuda reklam yapıyor.** <@&496985754694844417> <@&510097526708502529> <@&480249685303492618> <@&509772567654170625>`);
   }
 });
 
