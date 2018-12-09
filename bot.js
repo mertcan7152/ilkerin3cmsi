@@ -20,15 +20,4 @@ client.on('message', msg => {
   }
 });
 
-client.on('message', message => {
-  if (message.channel.name() === undefined) {
-    let mesaj = new Discord.RichEmbed()
-      .setColor('RANDOM')
-      .setAuthor(`${user.username}`)
-      .setImage(user.displayAvatarURL)
-      .setTimestamp()
-client.channels.get("516692159664226305").send (`**Yazdığı Mesaj :** ${message.content}`);
-  }
-});
-
 client.login(process.env.BOT_TOKEN);
